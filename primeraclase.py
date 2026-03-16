@@ -29,3 +29,4 @@ def fibonacci (number : int) -> int:
         fib_2 = fib_next
     return fib_next
 print(fibonacci(10))
+print("cambio primera clase en visual")
