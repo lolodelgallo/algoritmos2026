@@ -69,5 +69,19 @@ cadena = input('Ingrese una secuencia de caracteres: ')
 cadena_invertida = invertir_cadena(cadena)
 print (f'La secuencia invertida es: {cadena_invertida}')
 
+# Trabajo Práctico 1 - Ejercicio 7 #
+def calcular_serie(n):
+    if n <= 0:
+        return "Por favor, ingrese un número entero positivo."
+    else:
+        h_n = sum(1/i for i in range(1, n + 1))
+        return h_n
+n = int(input('Ingrese un número entero positivo: '))
+resultado_serie = calcular_serie(n)
+print (f'El resultado de h({n}) es: {resultado_serie}')
+
+# Trabajo Práctico 1 - Ejercicio 8 #
+
+
 
 
